@@ -1,0 +1,7 @@
+orders:
+  path: /orders
+  controller: App\Controller\TmpartsConntroller::getOrdersInfo
+  methods: [GET]
+  requirements:
+    Api-key: "[a-z]+"
+    article: "[a-z]+"

@@ -2,7 +2,6 @@
 
 namespace App\Controller;
 
-use App\Partners\Tmparts\OrderDTO;
 use App\Partners\Tmparts\Tmparts;
 use GuzzleHttp\Exception\GuzzleException;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;

@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac9cd129-047d-4c0c-89b8-67da68a262be" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/src/Controller/TmpartsConntroller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Partners/Tmparts/ApiClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Partners/Tmparts/Tmparts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/routes/tmparts.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +21,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpDebugGeneral" listening_started="true" />
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/bin/php">
+  <component name="PhpDebugGeneral" break_at_first_line="true" listening_started="true">
+    <xdebug_debug_ports port="9000" />
+    <xdebug_debug_ports port="9001" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.1">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/composer" />
       <path value="$PROJECT_DIR$/vendor/symfony/framework-bundle" />
@@ -79,7 +78,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/rinat/podzamenu",
+    "last_opened_file_path": "/home/rinat/projects/api",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -89,6 +88,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="localhost" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug" filter_connections="NOT_FILTER">
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -99,6 +103,7 @@
       <updated>1689343833454</updated>
       <workItem from="1689343834423" duration="626000" />
       <workItem from="1689344473897" duration="6258000" />
+      <workItem from="1689428062629" duration="2409000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -117,5 +122,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Controller/TmpartsConntroller.php</url>
+          <line>21</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
